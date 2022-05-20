@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
+	margin: 20px;
+}
+
+header h1{
+	background-color: #CD853F;
+	padding: 10px 0;
+	text-align: center;
+	border-bottom: 4px solid gray;
+}
+
+h2{
+	text-align: center;
+}
+
+.modelos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.modelos div{
+	margin: 20px 100px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.modelos div img{
+	width: 250px;
+	height: 250px;
+}
+.produto-imagem{
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 5px;
+}
