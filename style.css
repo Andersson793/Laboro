@@ -4,43 +4,72 @@
 	box-sizing: border-box;
 }
 
-p{
-	font-size: 20px;
-	text-align: center;
-	margin: 20px;
-}
-
 header h1{
-	background-color: #CD853F;
+	background-color: #2e2e2e;
 	padding: 10px 0;
 	text-align: center;
 	border-bottom: 4px solid gray;
+	color: white;
 }
 
 h2{
+	color: #2e2e2e;
 	text-align: center;
+	margin: 50px 0;
+}
+
+.conteiner-modelos{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-bottom: 70px; /* margem para o footer*/
 }
 
 .modelos{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.modelos div{
-	margin: 20px 100px;
-	border: 1px solid black;
-	border-radius: 5px;
-}
-
-.modelos div img{
 	width: 250px;
-	height: 250px;
+	text-align: center;
+	margin: 15px 35px;
 }
+
+/* aqui eu coloco as propriedades direto na imagem */
+.modelos img{
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 100%;
+	height: auto;
+}
+
+.modelos .descrição p{
+	color: #2e2e2e;
+}
+
+
+.modelos .descrição a button{
+	margin-top: 10px;
+	padding: 4px 7px;
+	border: none;
+	border-radius: 2px;
+	font-size: 17px;
+	background-color: black; /* cor de fundo */
+	color: white; /* cor do texto */
+	cursor: pointer; /* o ponteiro do mouse fica como click */
+}
+
 .produto-imagem{
 	width: 500px;
 	margin: 0 auto;
 	border: 1px solid black;
 	border-radius: 5px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+footer a{
+	color: white;
+	margin: 0 50px;
 }
