@@ -2,7 +2,14 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Open Sans';
 }
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans-Light.ttf');
+}
+  
 
 header h1{
 	background-color: #2e2e2e;
@@ -33,7 +40,7 @@ h2{
 
 /* aqui eu coloco as propriedades direto na imagem */
 .modelos img{
-	border: 2px solid black;
+	border: 2px solid #2e2e2e;
 	border-radius: 5px;
 	width: 100%;
 	height: auto;
@@ -44,22 +51,105 @@ h2{
 }
 
 
-.modelos .descrição a button{
-	margin-top: 10px;
-	padding: 4px 7px;
+button{
 	border: none;
-	border-radius: 2px;
-	font-size: 17px;
-	background-color: black; /* cor de fundo */
-	color: white; /* cor do texto */
-	cursor: pointer; /* o ponteiro do mouse fica como click */
+	border-radius: 4px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
 }
 
-.produto-imagem{
-	width: 500px;
-	margin: 0 auto;
-	border: 1px solid black;
+.borda{
+	border: 2px solid #2e2e2e;
 	border-radius: 5px;
+}
+
+
+.modelos .descrição a button{
+	padding: 4px 7px;
+	margin-top: 10px;
+	font-size: 17px;
+}
+
+
+.conteiner-produto{
+	width: 100%;
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	color: #2e2e2e;
+}
+
+.produto-imagem img{
+	width: 400px;
+	margin: 0 auto;
+	border: 2px solid #2e2e2e;
+	border-radius: 5px;
+}
+
+.sobre-produto{
+	margin-left: 15px;
+}
+
+.sobre-produto p{
+	margin: 10px;
+}
+
+.sobre-produto .frete{
+	margin-top: 20px;
+	width: 200px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	font-size: 1.3em;
+}
+
+.comprar{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.comprar button{
+	padding: 7px 10px;
+	font-size: 1.5em;
+	margin: 20px;
+}
+
+.comprar button span{
+	margin-right: 10px;
+}
+
+/* Empresa */
+
+form{
+	width: 400px;
+	margin: 20px auto;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+form h3{
+	margin-bottom: 20px;
+}
+
+form input{
+	height: 40px;
+	margin: 10px 0;
+}
+
+form textarea{
+	margin: 10px 0;
+	height: 150px;
+	min-height: 150px;
+	resize: vertical;
+}
+
+form button{
+	margin: 10px 0;
+	height: 40px;
 }
 
 footer{
@@ -72,4 +162,10 @@ footer{
 footer a{
 	color: white;
 	margin: 0 50px;
+	text-decoration: none;
+}
+
+footer .pagina-atual{
+	text-decoration:underline;
+	font-weight: bold;
 }
