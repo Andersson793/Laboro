@@ -11,7 +11,7 @@
 }
   
 
-header h1{
+header{
 	background-color: #2e2e2e;
 	padding: 10px 0;
 	text-align: center;
@@ -161,6 +161,8 @@ form button{
 .conteiner-sobre img{
 	width: 500px;
 }
+
+/* Footer */
 
 footer{
 	background-color: black;
