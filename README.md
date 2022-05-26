@@ -35,7 +35,8 @@ Excercício em duplas (abaixo o nome dos alunos).</p>
 
 <ul>
     <li>Andersson Silva Gonçalves</li>
-    <li>Pedro Abmael</li>
+    <li>Abmael Pedro</li>
+    <li>Alberto da Conceição</li>
 </ul>
 
 
