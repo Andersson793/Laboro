@@ -124,7 +124,7 @@ button{
 
 form{
 	width: 400px;
-	margin: 20px auto;
+	margin: 90px auto;
 	padding: 20px 10px;
 	display: flex;
 	flex-direction: column;
@@ -155,7 +155,7 @@ form button{
 
 .conteiner-sobre{
 	width: 500px;
-	margin: 50px auto;
+	margin: 70px auto;
 }
 
 .conteiner-sobre img{
