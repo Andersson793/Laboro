@@ -5,15 +5,15 @@
 Prof. Jorge Baldez</h3>
 <h2> Sobre</h2> 
 
-<p>Neste exercício devemos crar um site multi páginas de uma loja qualquer, que tenha uma página home, página produtos, histórico da empresa, e um formulário de contatos, utilizando apenas HTML5 e CSS3.
+<p>Neste exercício devemos crar um site multi páginas de um ecommerce, que tenha uma página home, página produtos, histórico da empresa, e um formulário de contatos, utilizando apenas HTML5 e CSS3.
 
-Excercício em duplas (abaixo o nome dos alunos).</p>
+Excercício em equipe (abaixo o nome dos alunos).</p>
 
 <h2>Tarefas</h2>
 <ul>
     <li>página home</li>
     <li>página produtos</li>
-    <li>página hitórico da empresa</li>
+    <li>página histórico da empresa</li>
     <li>página formulário de contato</li>
 </ul>
 
@@ -27,7 +27,7 @@ Excercício em duplas (abaixo o nome dos alunos).</p>
 
 <p>
 
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
 
 <p>
 
